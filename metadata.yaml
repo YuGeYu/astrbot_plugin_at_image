@@ -1,0 +1,7 @@
+name: astrbot_plugin_at_image
+display_name: 群聊艾特生图
+desc: 用户在群聊中艾特机器人并明确要求画图时，调用 OpenAI 兼容接口生成并发送图片。
+help: 使用“@机器人 画一只戴耳机的猫”。普通艾特不会触发生图。
+version: v1.0.1
+author: YuGeYu
+repo: https://github.com/YuGeYu/astrbot_plugin_at_image
