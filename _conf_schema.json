@@ -1,0 +1,43 @@
+{
+  "api_base": {
+    "description": "OpenAI 兼容生图接口地址",
+    "type": "string",
+    "default": "https://api.llmgw.xyz"
+  },
+  "api_key": {
+    "description": "生图 API Key（仅保存在 AstrBot 远端配置中）",
+    "type": "string",
+    "default": ""
+  },
+  "model": {
+    "description": "生图模型",
+    "type": "string",
+    "default": "gpt-image-2-[1.5k]"
+  },
+  "cooldown_seconds": {
+    "description": "每位用户两次生图之间的冷却秒数",
+    "type": "int",
+    "default": 60
+  },
+  "timeout_seconds": {
+    "description": "单次生图超时秒数",
+    "type": "int",
+    "default": 120
+  },
+  "max_prompt_length": {
+    "description": "生图提示词最大字符数",
+    "type": "int",
+    "default": 500
+  },
+  "allowed_groups": {
+    "description": "允许生图的群号列表；留空表示全部群聊",
+    "type": "list",
+    "default": []
+  },
+  "send_progress": {
+    "description": "生成前发送“正在画”提示",
+    "type": "bool",
+    "default": true
+  }
+}
+
